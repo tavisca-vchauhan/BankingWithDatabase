@@ -1,0 +1,9 @@
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\bin\Debug\BankingEmployeeDatabase.exe.config
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\bin\Debug\BankingEmployeeDatabase.exe
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\bin\Debug\BankingEmployeeDatabase.pdb
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\obj\Debug\BankingEmployeeDatabase.csprojResolveAssemblyReference.cache
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\obj\Debug\BankingEmployeeDatabase.csproj.CoreCompileInputs.cache
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\obj\Debug\BankingEmployeeDatabase.exe
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\obj\Debug\BankingEmployeeDatabase.pdb
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\bin\Debug\EntityFramework.dll
+C:\Users\vchauhan\source\repos\BankingEmployeeDatabase\BankingEmployeeDatabase\bin\Debug\EntityFramework.xml
