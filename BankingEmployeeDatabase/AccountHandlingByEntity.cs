@@ -15,6 +15,15 @@ namespace BankingEmployeeDatabase
 
         BankingEntities bankingEntities = new BankingEntities();
 
+        public SqlConnection Connect()
+        {
+            string connetionString;
+            connetionString = @"Data Source=TAVDESK032;Initial Catalog=Banking;Integrated Security= true";
+            con = new SqlConnection(connetionString);
+            con.Open();
+            return con;
+        }
+        
 
         public string GetNumber()
         {
