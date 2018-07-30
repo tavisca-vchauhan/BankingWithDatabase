@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -69,8 +69,10 @@ namespace BankingEmployeeDatabase
                 }
                 else if(framework == 2)
                 {
+                   
                     employee emp = new employee();
-                    AccountHandlingByEntity accounts = new AccountHandlingByEntity();                  
+                    AccountHandlingByEntity accounts = new AccountHandlingByEntity();
+                    con = accounts.Connect();
                     top:
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine("Enter \n 1 To Open new account \n 2 To Display account details \n 3 To Withdraw some amount \n 4 To Deposit money \n 5 To check Interest ");
