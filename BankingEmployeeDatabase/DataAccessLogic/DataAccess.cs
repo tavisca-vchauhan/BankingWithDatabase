@@ -26,6 +26,7 @@ namespace BankingEmployeeDatabase
                 cmd.Parameters.AddWithValue("@p3",emp.balance);
                 cmd.Parameters.AddWithValue("@p4", emp.AccType);
                 int i = cmd.ExecuteNonQuery();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine("Your {0} Account is created with AccountID : {1}",emp.AccType,(55020600+count));
             }
             catch(Exception e)
@@ -101,6 +102,7 @@ namespace BankingEmployeeDatabase
             cmd = new SqlCommand(s, con);
             cmd.Parameters.AddWithValue("@p1", id);
             dr = cmd.ExecuteReader();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("-----------------------------------");
 
             if (dr.HasRows)

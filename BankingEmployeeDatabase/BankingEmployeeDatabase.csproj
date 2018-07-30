@@ -49,9 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountHandlingByEntity.cs" />
     <Compile Include="BuisinessLogic\AccountHandling.cs" />
     <Compile Include="DataAccessLogic\DataAccess.cs" />
     <Compile Include="BuisinessLogic\EmpFields.cs" />
+    <Compile Include="DataAccessLogic\Interface1.cs" />
     <Compile Include="employee.cs">
       <DependentUpon>Entity.tt</DependentUpon>
     </Compile>
